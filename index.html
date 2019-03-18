@@ -13,14 +13,14 @@
     <script>
       eruda.init({ tool: [] });
     </script>
-    <script src="./eruda-env.min.js"></script>
+    <script src="assets/eruda-env.js"></script>
     <script>
       eruda
         .add(erudaEnv)
         .show('env')
         .show()
         .setEnv([
-          { name: 'staging', url: 'https://staging.xxx.com' },
+          { name: 'staging', url: 'http://0.0.0.0:3000' },
           { name: 'dev1', url: 'https://dev1.xxx.com' },
           { name: 'dev2', url: 'https://dev2.xxx.com' },
           { name: 'prod', url: 'https://prod.xxx.com' },

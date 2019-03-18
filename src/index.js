@@ -23,9 +23,10 @@ module.exports = function(eruda) {
               );
             }
           });
+          const isCurrent = url === window.location.origin ? '⭐️': '';
           btn.className = 'eruda-btn';
           btn.dataset.url = url;
-          btn.innerHTML = name;
+          btn.innerHTML = name + isCurrent;
           box.get(0).appendChild(btn);
         });
       };
