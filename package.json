@@ -6,6 +6,7 @@
     "dev": "webpack-dev-server --host 0.0.0.0",
     "build": "webpack && webpack -p",
     "ci": "npm run lint && npm run build",
+    "prepublish": "npm run build",
     "lint": "eslint src/**/*.js"
   },
   "keywords": [
