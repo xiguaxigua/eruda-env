@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Eruda-env</title>
+  </head>
+  <body>
+    <script src="node_modules/eruda/eruda.min.js"></script>
+    <script>
+      eruda.init({ tool: [] });
+    </script>
+    <script src="assets/eruda-env.js"></script>
+    <script>
+      eruda
+        .add(erudaEnv)
+        .show('env')
+        .show()
+        .setEnv([
+          { name: 'staging', url: 'https://staging.xxx.com' },
+          { name: 'dev1', url: 'https://dev1.xxx.com' },
+          { name: 'dev2', url: 'https://dev2.xxx.com' },
+          { name: 'prod', url: 'https://prod.xxx.com' },
+        ]);
+    </script>
+  </body>
+</html>

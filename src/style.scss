@@ -1,0 +1,20 @@
+.env {
+  padding: 10px;
+  h3 {
+    text-align: center;
+  }
+  .tip {
+    padding: 10px;
+    color: #263238;
+    background: #fff;
+
+    .btn {
+      height: 50px;
+      margin: 15px 0;
+      color: #fff;
+      line-height: 50px;
+      text-align: center;
+      background-color: #ccc;
+    }
+  }
+}
