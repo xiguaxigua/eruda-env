@@ -8,12 +8,20 @@
     color: #263238;
     background: #fff;
 
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
     .btn {
       height: 50px;
       margin: 15px 0;
+      width: 45%;
       color: #fff;
       line-height: 50px;
       text-align: center;
+      margin: 5px;
       background-color: #ccc;
     }
   }
