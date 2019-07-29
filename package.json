@@ -1,6 +1,6 @@
 {
   "name": "eruda-env",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "eruda-env.js",
   "scripts": {
     "dev": "webpack-dev-server --host 0.0.0.0",
